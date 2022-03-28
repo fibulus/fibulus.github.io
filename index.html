@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Schüler Rezepte</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css"/>
+  </head>
+  <body>
+    <!-- nav  -->
+    <nav class="navbar">
+      <div class="nav-center">
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo">
+            <img src="./assets/logo.png" alt="simply recipes" />
+          </a>
+          <button class="nav-btn btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link"> Startseite </a>
+          <a href="tags.html" class="nav-link"> Suche </a>
+          <a href="recipes.html" class="nav-link"> Rezepte </a>
+          <a href="about.html" class="nav-link"> Über uns </a>
+
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn"> Kontakt </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end of nav -->
+    <!-- main -->
+    <main class="page">
+      <!-- header -->
+      <header class="hero">
+        <div class="hero-container">
+          <div class="hero-text">
+            <h1>Schüler Rezepte</h1>
+            <h4>Von Schüler für Schüler</h4>
+          </div>
+        </div>
+      </header>
+      <!-- end of header -->
+      <section class="recipes-container">
+        <!-- tag container -->
+        <div class="tags-container">
+          <h4>Rezepte</h4>
+          <div class="tags-list">
+            <a href="Mittagessen.html">Mittagessen</a>
+            <a href="tag-template.html">Abendessen</a>
+            <a href="tag-template.html">Suppen</a>
+            <a href="tag-template.html">Vegetarisch</a>
+          </div>
+        </div>
+        <!-- end of tag container -->
+        <!-- recipes list -->
+        <div class="recipes-list">
+          <!-- single recipe -->
+          <a href="single-recipe.html" class="recipe">
+            <img
+              src="./assets/recipes/Makaronineu.jpeg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Makaroni</h5>
+            <p>Arbeitszeit : 15min | Kochzeit : 5min</p>
+          </a>
+          <!-- end of single recipe -->
+          <!-- single recipe -->
+          <a href="Falafel.html" class="recipe">
+            <img
+              src="./assets/recipes/Falafel.jpeg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Falafel</h5>
+            <p>Arbeitszeit : 15min | Kochzeit : 5min</p>
+          </a>
+          <!-- end of single recipe -->
+          <!-- single recipe -->
+          <a href="SoßeBolognese.html" class="recipe">
+            <img
+              src="./assets/recipes/SoßeBologenese.jpeg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Soße Bolognese</h5>
+            <p>Arbeitszeit : 15min | Kochzeit : 5min</p>
+          </a>
+          <!-- end of single recipe -->
+          <!-- single recipe -->
+          <a href="Gebratene Nudeln.html" class="recipe">
+            <img
+              src="./assets/recipes/Gebratene Nudeln.jpeg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Gebratene Nudeln</h5>
+            <p>Arbeitszeit : 15min | Kochzeit : 5min</p>
+          </a>
+          <!-- end of single recipe -->
+        </div>
+        <!-- end of recipes list -->
+      </section>
+    </main>
+    <!-- end of main -->
+    <!-- footer -->
+    <footer class="page-footer">
+      <p>
+        &copy; <span id="date"></span>
+        <span class="footer-logo">Schüler Rezepte</span> erstellt von
+        <a href="https://www.Facebook.com/">FIBI</a>
+      </p>
+    </footer>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
